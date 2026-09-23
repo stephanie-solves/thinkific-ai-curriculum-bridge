@@ -87,6 +87,16 @@ This provides the foundation for AI-assisted curriculum review, course redesign,
 - JSON
 - API authentication
 
+## Technical Example
+
+A sanitized JavaScript example is included to demonstrate the core integration pattern used in this project:
+
+**[View the REST + GraphQL integration example](integration-example.js)**
+
+The example shows how the integration retrieves standard lesson metadata through Thinkific's REST API, retrieves richer text lesson content through GraphQL, and combines both responses into a single result for the AI.
+
+Production credentials, private endpoints, and organization-specific configuration are intentionally excluded.
+
 ## Security
 
 The production integration uses private credentials and protected endpoints.
