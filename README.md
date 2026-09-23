@@ -2,6 +2,10 @@
 
 A custom AI integration that connects ChatGPT with live Thinkific course content using MCP, REST, GraphQL, and Cloudflare Workers.
 
+## Architecture
+
+![AI-Powered Thinkific Curriculum Bridge architecture](thinkific-architecture.png)
+
 ## The Problem
 
 I wanted to use AI to review, improve, and eventually help develop online curriculum stored in Thinkific. The existing workflow required manually copying course material out of Thinkific, working with it in ChatGPT, and then transferring the results back.
@@ -45,7 +49,7 @@ Rather than requiring the AI to manage separate REST and GraphQL workflows, I up
 The user can simply request a lesson. The integration determines how to retrieve the information needed.
 
 ## Problem Solving in Practice
-
+![Thinkific integration problem-solving process](thinkific-problem-solving.png)
 The project involved several iterations:
 
 1. Tested an existing integration and determined it did not provide the curriculum access required.
